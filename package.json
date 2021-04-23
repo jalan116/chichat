@@ -1,7 +1,7 @@
 {
-  "name": "vue3template",
+  "name": "chichat",
   "version": "1.0.0",
-  "author": "Rodolfo Romamn <rromanv@gmail.com>",
+  "author": "Jesus Alaniz <jalan116@stu.southtexascollege.edu>",
   "license": "ISC",
   "scripts": {
     "dev": "vite",
