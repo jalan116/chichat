@@ -14,11 +14,12 @@
 
   <script setup>
     import { defineProps, computed, ref } from 'vue'
-    import { useClipboard } from '@vueuse/core'
-    import { useMotions } from '@vueuse/motion'
     import { authentication } from '~/helpers/useFirebase'
+
     const { user } = authentication()
+
     const isUser = computed(() => user.value.uid === props.message.userId)
+    
     const props = defineProps({
       message: {
         type: Object,
